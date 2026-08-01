@@ -1,0 +1,40 @@
+Package: cumulevel
+Type: Package
+Title: Weighted Causal Estimands for Cumulative Multilevel Exposures
+Version: 0.1.0
+Authors@R: c(
+    person("Mohamed Raouf", "Benmakrelouf", role = c("aut", "cre"),
+           email = "ismtid_raouf@hotmail.fr",
+           comment = c(ORCID = "0000-0002-2914-111X")),
+    person("Abdelkader", "Tatachak", role = "aut",
+           comment = c(ORCID = "0000-0003-4181-605X")))
+Description: Estimation of a family of weighted causal estimands for exposures
+    that are cumulative and hierarchical, such as educational attainment,
+    disease stage or pack-years of tobacco, where attaining a level entails
+    having attained all preceding ones. Dichotomising such an exposure
+    silently attributes to the target level whatever happens above it. The
+    package makes that attribution assumption an explicit parameter: a system
+    of contribution weights indexes a family of estimands whose boundary
+    members are the restricted average treatment effect and the binary
+    average treatment effect. Estimation is by a level-specific weighted
+    targeted minimum loss-based estimator that is doubly robust and
+    semiparametrically efficient under cross-fitting, following Benmakrelouf
+    and Tatachak (2026). Positivity diagnostics are reported by default, and
+    a probabilistic sensitivity layer propagates attribution uncertainty
+    jointly with sampling uncertainty. Includes NHANES 2005-2006 pack-years
+    and linked mortality data as a worked example.
+License: GPL-3
+Encoding: UTF-8
+Depends: R (>= 4.0.0)
+Imports: stats, graphics, grDevices, utils
+Suggests: ranger, testthat (>= 3.0.0), knitr, rmarkdown
+LazyData: true
+URL: https://github.com/benmakrelouf/cumulevel
+BugReports: https://github.com/benmakrelouf/cumulevel/issues
+RoxygenNote: 7.3.1
+NeedsCompilation: no
+Packaged: 2026-08-01 09:59:03 UTC; root
+Author: Mohamed Raouf Benmakrelouf [aut, cre]
+    (<https://orcid.org/0000-0002-2914-111X>),
+  Abdelkader Tatachak [aut] (<https://orcid.org/0000-0003-4181-605X>)
+Maintainer: Mohamed Raouf Benmakrelouf <ismtid_raouf@hotmail.fr>

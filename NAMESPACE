@@ -1,0 +1,21 @@
+export(weighted_level)
+export(positivity)
+export(attribution_prior)
+export(mixture_interval)
+export(weight_scheme)
+S3method(print, cumulevel)
+S3method(summary, cumulevel)
+S3method(print, summary.cumulevel)
+S3method(plot, cumulevel)
+S3method(coef, cumulevel)
+S3method(confint, cumulevel)
+S3method(print, positivity)
+S3method(plot, positivity)
+S3method(print, mixture)
+importFrom(stats, binomial, glm.fit, plogis, qlogis, uniroot, optim,
+           rbeta, rnorm, quantile, median, sd, var, complete.cases,
+           model.matrix, terms, na.omit, qnorm)
+importFrom(graphics, abline, axis, box, legend, lines, mtext, par,
+           points, polygon, segments, text, hist, rect)
+importFrom(grDevices, adjustcolor)
+importFrom(utils, head)

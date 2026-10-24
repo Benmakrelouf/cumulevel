@@ -1,5 +1,7 @@
 # cumulevel
 
+[![R-CMD-check](https://github.com/Benmakrelouf/cumulevel/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/Benmakrelouf/cumulevel/actions/workflows/R-CMD-check.yaml) [![License: GPL-3](https://img.shields.io/badge/license-GPL--3-blue.svg)](LICENSE) [![Release](https://img.shields.io/github/v/release/Benmakrelouf/cumulevel)](https://github.com/Benmakrelouf/cumulevel/releases)
+
 **Weighted causal estimands for cumulative multilevel exposures.**
 
 When an exposure is cumulative — educational attainment, disease stage,

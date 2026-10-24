@@ -1,0 +1,7 @@
+bibentry(
+  bibtype = "Unpublished",
+  title   = "Weighted Causal Estimands for Cumulative Multilevel Exposures: Identification and Targeted Estimation",
+  author  = c(person("Mohamed Raouf", "Benmakrelouf"), person("Abdelkader", "Tatachak")),
+  year    = "2026",
+  note    = "Manuscript in preparation. R package cumulevel version 0.1.0, https://github.com/Benmakrelouf/cumulevel"
+)
